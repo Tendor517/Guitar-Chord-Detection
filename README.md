@@ -1,5 +1,5 @@
 # Guitar-Chord-Detection
-It's an manually trained simple model.
+It's an manually trained simple model for tracking finger position and predicting Guitar chord names
 
 1. Run collect_data.py to train and collect the finger position data into the chord_dataset.csv file, which record an 10 second video with 30 frames/second and uses mediapipe,cv2 and numpy
    to collect the finger positions for that particular chord, try tilting the neck of guitar left/right/top/bottom angle wise for more robust data collection.
